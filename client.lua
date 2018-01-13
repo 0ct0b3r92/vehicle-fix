@@ -1,6 +1,5 @@
-RegisterNetEvent( 'fixVehicle' )
-AddEventHandler( 'fixVehicle', function() 
-    local ped = GetPlayerPed( -1 )
+RegisterCommand("fix", function()
+    local ped = PlayerPedId()
 
     if ( DoesEntityExist( ped ) and not IsEntityDead( ped ) ) then 
         if ( IsPedSittingInAnyVehicle( ped ) ) then 
