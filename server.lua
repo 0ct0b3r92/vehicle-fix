@@ -4,3 +4,5 @@ AddEventHandler( 'chatMessage', function( source, n, message )
         TriggerClientEvent( 'fixVehicle', source )
     end 
 end )
+
+-- Designed by Lucifer
