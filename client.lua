@@ -1,11 +1,3 @@
-Citizen.CreateThread( function()
-    while true do 
-        ManageVehicleDamage()
-
-        Citizen.Wait( 0 )
-    end 
-end )
-
 RegisterNetEvent( 'fixVehicle' )
 AddEventHandler( 'fixVehicle', function() 
     local ped = GetPlayerPed( -1 )
