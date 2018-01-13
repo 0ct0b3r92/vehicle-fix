@@ -1,3 +1,5 @@
+vehicle-fix
+
 Basic /fix command to fix your vehicle.
 
 Copy vehicle-fix to your resources folder.
